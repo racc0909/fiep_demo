@@ -27,5 +27,4 @@ sqlalchemy
 psycopg2-binary
 numpy-financial
 pycountry
-st-pages
 st_pages
