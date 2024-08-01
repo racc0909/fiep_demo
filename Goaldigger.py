@@ -4,13 +4,14 @@ import pandas as pd
 from datetime import datetime, timedelta, date
 from financial_plan import filter_plans_by_date, filter_loans_by_date, calculateMonthlyFinalPayment
 from graph import display_timeline, display_piechart
-from db import authenticate, signup, logout, deletePlan, showChosenPages, getUserInfo, getUserPlans, getTotalSavings, logout, createSaving
+from db import authenticate, signup, logout, deletePlan, getUserInfo, getUserPlans, getTotalSavings, logout, createSaving
+#showChosenPages
 import time
 
 # Set page title and icon
 st.set_page_config(page_title="Goaldigger", page_icon=":moneybag:")
 
-showChosenPages()
+#showChosenPages()
 
 # Way one
 sidebar_logo = "img/Logo_Without_Text.png"
